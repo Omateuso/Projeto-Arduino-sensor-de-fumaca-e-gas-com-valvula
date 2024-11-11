@@ -1,3 +1,3 @@
-Segunda tentativa, sem integração ao python.
+#Projeto de Arduino sensor de fumaça e gas com valvula solenoide.
 
-Funcionou perfeitamente.
+Utilizando se o Arduino, um relay, o sensor MQ-2, uma fonte 12v 5a, e a valvula solenoide.
