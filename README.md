@@ -1,3 +1,5 @@
-Segunda tentativa, sem integração ao python.
+Mensagems mais bonitinhas e integração ao python por via de logs.
 
-Funcionou perfeitamente.
+Logger tem que ser configurado ao computador.
+
+Não e a versão do que esta no Arduino por ser sinceramente desnecessario.
