@@ -19,11 +19,17 @@ valvula = false;
 void loop() {
   
   LeituraSensor = analogRead(PinSensor); 
-  Serial.println(LeituraSensor);
+  unsigned long Tempo = millis();
 
- if(LeituraSensor >= 680) 
+ if(LeituraSensor >= 680 && !valvula) 
  {
    valvula = true;       
+  Serial.print("Leitura do sensor MQ-2: ");
+  Serial.println(LeituraSensor);
+  Serial.print(Tempo / 60000);
+  Serial.print(" minutos e ");
+  Serial.print((Tempo / 1000) % 60);
+  Serial.print(" segundos desde o inicio da ativação");
   }
  else
  {
@@ -31,6 +37,6 @@ void loop() {
   }
 
  digitalWrite(Relay, valvula ? HIGH : LOW);
- delay(100); //100 milisegundos, 0,1 de um segundo.
+ delay(120); //120 milisegundos, 0,12 de um segundo.
  
 }
