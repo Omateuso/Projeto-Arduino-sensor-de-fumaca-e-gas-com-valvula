@@ -1,5 +1,3 @@
-Primeira tentativa de teste, recriada.
+Segunda tentativa, sem integração ao python.
 
-Retirado o codigo de print, pois achava desnecessario na hora.
-
-Aprendi bem rapido em questão.
+Funcionou perfeitamente.
