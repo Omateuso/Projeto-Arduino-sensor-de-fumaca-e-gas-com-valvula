@@ -31,6 +31,6 @@ void loop() {
   }
 
  digitalWrite(Relay, valvula ? HIGH : LOW);
- delay(100); //100 milisegundos, 0,1 de um segundo.
+ delay(100); //100 milisegundos, 0,1 de um segundo. .
  
 }
